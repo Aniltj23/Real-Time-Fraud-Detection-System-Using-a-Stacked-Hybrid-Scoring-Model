@@ -20,6 +20,30 @@ A real-time fraud detection framework built using a stacked hybrid scoring model
 # ⚡ Real-Time Fraud Detection Dashboard
 - Streamlit-based real-time fraud detection system that integrates with a FastAPI backend, providing live transaction streaming, SHAP explanations, drift detection, and model performance tracking.
 
+# Install Dependencies
+- pip install -r requirements.txt
 
+# Run the FastAPI backend
+- uvicorn fraud_api:app --reload
 
+# Run the Streamlit app
+- streamlit run fraud_detection.py
+
+# How to use the Streamlit Dashboard
+- Enter the FastAPI endpoint URL in the sidebar
+- Adjust the probability threshold, stream count, and delay
+- Click “🚀 Start Live Stream”
+- Watch transactions stream live, see drift detection, and model metrics update
+
+# Example Screenshots
 - 
+
+# Project Structure
+fraud-detection-dashboard/
+  │
+  ├── fraud_detection.py                # Streamlit frontend
+  ├── fraud_api.py                # FastAPI backend
+  ├── fraud_detection.pkl   # Trained model
+  ├── creditcard.csv        # Example dataset
+  ├── requirements.txt
+  └── README.md
