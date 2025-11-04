@@ -17,7 +17,7 @@ A real-time fraud detection framework built using a stacked hybrid scoring model
 - **SHAP**, **Seaborn**, **Matplotlib** – interpretability and visualization
 
 
-# ⚡ Real-Time Fraud Detection Dashboard
+# Real-Time Fraud Detection Dashboard
 - Streamlit-based real-time fraud detection system that integrates with a FastAPI backend, providing live transaction streaming, SHAP explanations, drift detection, and model performance tracking.
 
 # Install Dependencies
