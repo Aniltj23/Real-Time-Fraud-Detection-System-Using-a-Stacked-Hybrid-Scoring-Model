@@ -37,13 +37,3 @@ A real-time fraud detection framework built using a stacked hybrid scoring model
 
 # Example Screenshots
 - 
-
-# Project Structure
-fraud-detection-dashboard/
-  │
-  ├── fraud_detection.py                # Streamlit frontend
-  ├── fraud_api.py                # FastAPI backend
-  ├── fraud_detection.pkl   # Trained model
-  ├── creditcard.csv        # Example dataset
-  ├── requirements.txt
-  └── README.md
