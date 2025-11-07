@@ -34,6 +34,3 @@ A real-time fraud detection framework built using a stacked hybrid scoring model
 - Adjust the probability threshold, stream count, and delay
 - Click “🚀 Start Live Stream”
 - Watch transactions stream live, see drift detection, and model metrics update
-
-# Example Screenshots
-- 
